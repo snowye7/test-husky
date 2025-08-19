@@ -5,7 +5,7 @@ import "./App.css"
 const Child: FC<{ data: number[] }> = ({ data }) => {
     useEffect(() => {
         return () => {
-            console.log(1)
+            console.log(1212121212)
         }
     }, [])
     return <div>{data.join(",")}</div>
